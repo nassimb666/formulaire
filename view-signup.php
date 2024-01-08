@@ -24,7 +24,7 @@
     }
     ?>
 
-    >
+    
     <?php
     if (!$showForm) { 
         $nom = $_POST["nom"];
@@ -40,7 +40,7 @@
         echo "<p>Date de naissance : $dateNaissance</p>";
 
         
-        echo "<p>Un mail de confirmation a été envoyé à l'adresse $courriel.</p>";
+        echo "<p>Un mail de confirmation a ét6é envoyé à l'adresse $courriel.</p>";
     }
     ?>
 
